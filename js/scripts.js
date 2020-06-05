@@ -5,19 +5,22 @@ $(document).ready(function() {
     const operator = $("input:radio[name=operator]:checked").val();
     const cheese = $("input:checkbox[name=cheese]:checked").val();
 
-    if (cheese === "on") {
-      $("#csharp").show();
-    } else if (age <= 30 && gender === "Non-Binary") {
-      $("#ruby").show();
-    } else if (age > 30 && age <= 50 || operator === "add") {
-      $("#python").show();
-    } else if (gender === "Male" || operator === "divide") {
-      $("#javascript").show();
-    } else if (gender === "Female" && age >= 1) {
-      $("#python").show();
+    if (age) {
+      if (cheese === "on") {
+        $("#csharp").show();
+      } else if (age <= 30 && gender === "Non-Binary") {
+        $("#ruby").show();
+      } else if (age > 30 && age <= 50 || operator === "add") {
+        $("#python").show();
+      } else if (gender === "Male" || operator === "divide","multiply") {
+        $("#javascript").show();
+      } else if (gender === "Female" && age >= 1) {
+        $("#python").show();
+      }
     } else {
-      $("#swift").show();
+      alert("Please enter your age")
     }
+
 
     event.preventDefault();
   });
