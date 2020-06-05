@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
 
+    let userName = $("#firstname").val();
     const age = parseInt($("input#age").val());
     const gender = $("select#gender").val();
     const operator = $("input:radio[name=operator]:checked").val();
@@ -27,6 +28,8 @@ $(document).ready(function() {
     } else {
       alert("Please enter your age")
     }
+
+    $("span.name1").text(userName);
 
   });
 });
