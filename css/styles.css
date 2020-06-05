@@ -12,6 +12,14 @@ body {
   display: block;
 }
 
-#pick {
+#csharp {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+#python {
   display: none;
 }
