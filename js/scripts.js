@@ -9,8 +9,10 @@ $(document).ready(function() {
       $("#csharp").show();
     } else if (age <= 30 && gender === "Non-Binary") {
       $("#ruby").show();
-    } else if (age > 30 && age <= 50 || operator === add) {
+    } else if (age > 30 && age <= 50 || operator === "add") {
       $("#python").show();
+    } else if (gender === "Male" || operator === "divide") {
+      $("#javascript").show();
     }
 
     event.preventDefault();
