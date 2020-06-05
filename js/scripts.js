@@ -13,6 +13,8 @@ $(document).ready(function() {
       $("#python").show();
     } else if (gender === "Male" || operator === "divide") {
       $("#javascript").show();
+    } else (gender === "Female" && age >= 1) {
+      $("#python").show();
     }
 
     event.preventDefault();
