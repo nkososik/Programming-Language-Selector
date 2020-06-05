@@ -3,8 +3,9 @@ $(document).ready(function() {
     const age = parseInt($("input#age").val());
     const gender = $("select#gender").val();
     const operator = $("input:radio[name=operator]:checked").val();
-    const cheese = $("#defaultCheck1").val();
+    const cheese = $("input:checkbox[name=cheese]:checked").val();
 
+    console.log(cheese)
     event.preventDefault();
   });
 });
