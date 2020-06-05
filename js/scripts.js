@@ -10,29 +10,19 @@ $(document).ready(function() {
     if (age) {
       if (cheese === "on") {
         $("#csharp").fadeIn();
-        $("#javascript").hide();
-        $("#python").hide();
-        $("#ruby").hide();
+        $("#javascript,#python,#ruby").hide();
       } else if (age <= 30 && gender === "Non-Binary") {
         $("#ruby").fadeIn();
-        $("#javascript").hide();
-        $("#python").hide();
-        $("#csharp").hide();
+        $("#javascript,#python,#csharp").hide();
       } else if (age >= 30 && age < 45) {
         $("#python").fadeIn();
-        $("#javascript").hide();
-        $("#csharp").hide();
-        $("#ruby").hide();
+        $("#javascript,#csharp,#ruby").hide();
       } else if (age >= 45 && gender === "Male") {
         $("#javascript").fadeIn();
-        $("#csharp").hide();
-        $("#python").hide();
-        $("#ruby").hide();
+        $("#csharp,#python,#ruby").hide();
       } else if (gender === "Female") {
         $("#javascript").fadeIn();
-        $("#csharp").hide();
-        $("#python").hide();
-        $("#ruby").hide();
+        $("#csharp,#python,#ruby").hide();
       }
     } else {
       alert("Please enter your age")

@@ -10,13 +10,13 @@ _This webpage project was created in order to showcase knowledge of forms, form 
 
 ## Setup/Installation Requirements
 
-* _Use the following link to open index.html: https://nkososik.github.io/Programming-Portfolio/_
+* _Use the following link to open index.html: https://nkososik.github.io/Programming-Language-Selector/_
 * _Clone this project from github using git clone_
 * _Or download .zip files and extract to a folder of your choice_
 * _Open in your code editor of choice or vs code_
 * _Drag the .html into your browser or run code index.html (if you are in the project directory)_
 
-_Follow through the instructions listed above or access the site throught the following github pages link: https://nkososik.github.io/Programming-Portfolio/! If you want to access the CSS stylesheet or the javascript file, open your code editor, make sure you are in the correct directory where the project has  run code css/styles.css, or code js/scripts.js respectively._
+_Follow through the instructions listed above or access the site throught the following github pages link: https://nkososik.github.io/Programming-Language-Selector/! If you want to access the CSS stylesheet or the javascript file, open your code editor, make sure you are in the correct directory where the project has  run code css/styles.css, or code js/scripts.js respectively._
 
 ## Known Bugs
 
@@ -24,7 +24,7 @@ _There are no known issues with bootstrap.css, styles.css, scripts.js, jquery, o
 
 ## Support and contact details
 
-_If you run into any issues in the code, feel welcome to edit. You can contact me at nikolas.kososik@gmail.com or through github for any support needs_
+_If you run into any issues in the code, feel welcome to edit. You can contact me at nikolas.kososik@gmail.com or through github (user: nkososik) for any support needs_
 
 ## Technologies Used
 
