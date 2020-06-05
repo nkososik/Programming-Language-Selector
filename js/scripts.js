@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
+    event.preventDefault();
+
     const age = parseInt($("input#age").val());
     const gender = $("select#gender").val();
     const operator = $("input:radio[name=operator]:checked").val();
@@ -7,21 +9,19 @@ $(document).ready(function() {
 
     if (age) {
       if (cheese === "on") {
-        $("#csharp").show();
+        $("#csharp").fadeIn();
       } else if (age <= 30 && gender === "Non-Binary") {
-        $("#ruby").show();
+        $("#ruby").fadeIn();
       } else if (age >= 30 && age < 45) {
-        $("#python").show();
+        $("#python").fadeIn();
       } else if (age >= 45 && gender === "Male") {
-        $("#javascript").show();
+        $("#javascript").fadeIn();
       } else if (gender === "Female") {
-        $("#javascript").show();
+        $("#javascript").fadeIn();
       }
     } else {
       alert("Please enter your age")
     }
 
-
-    event.preventDefault();
   });
 });
