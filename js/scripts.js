@@ -10,12 +10,12 @@ $(document).ready(function() {
         $("#csharp").show();
       } else if (age <= 30 && gender === "Non-Binary") {
         $("#ruby").show();
-      } else if (age > 30 && age <= 50 || operator === "add") {
+      } else if (age >= 30 && age < 45 && operator === "add") {
         $("#python").show();
-      } else if (gender === "Male" || operator === "divide","multiply") {
+      } else if (age >= 45 && gender === "Male" && operator === "divide") {
         $("#javascript").show();
-      } else if (gender === "Female" && age >= 1) {
-        $("#python").show();
+      } else if (gender === "Female") {
+        $("#javascript").show();
       }
     } else {
       alert("Please enter your age")
