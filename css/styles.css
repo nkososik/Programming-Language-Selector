@@ -1,0 +1,9 @@
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  background-color: azure;
+  padding: 15px;
+  border: solid purple 5px;
+}
