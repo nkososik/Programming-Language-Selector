@@ -16,7 +16,7 @@ _This webpage project was created in order to showcase knowledge of forms, form 
 * _Open in your code editor of choice or vs code_
 * _Drag the .html into your browser or run code index.html (if you are in the project directory)_
 
-_Follow through the instructions listed above or access the site throught the following github pages link: https://nkososik.github.io/Programming-Language-Selector/! If you want to access the CSS stylesheet or the javascript file, open your code editor, make sure you are in the correct directory where the project has  run code css/styles.css, or code js/scripts.js respectively._
+_Follow through the instructions listed above or access the site throught the following github pages link: https://nkososik.github.io/Programming-Language-Selector/! If you want to access the CSS stylesheet or the javascript file, open your code editor, make sure you are in the correct directory where the project has  run code css/styles.css, or code js/scripts.js respectively. A live server is not necessary to view the document. No additional code is necessary to view the project._
 
 ## Known Bugs
 
@@ -28,7 +28,7 @@ _If you run into any issues in the code, feel welcome to edit. You can contact m
 
 ## Technologies Used
 
-_Project uses the HTML coding language, Markdown language, CSS stylings, Bootstrap, Github Repositories, Visual Studio Code, Javascript, jQuery, and the learnhowtoprogram curriculum._
+_Project uses the HTML coding language, Markdown language, CSS stylings, Bootstrap 3.3.7, Github Repositories, Visual Studio Code, Javascript, jQuery 3.5.1, and the learnhowtoprogram curriculum._
 
 ### License: MIT
 
