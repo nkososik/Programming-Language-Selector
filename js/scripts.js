@@ -5,7 +5,12 @@ $(document).ready(function() {
     const operator = $("input:radio[name=operator]:checked").val();
     const cheese = $("input:checkbox[name=cheese]:checked").val();
 
-    console.log(cheese)
+    if (cheese === "on") {
+      $("#csharp").show();
+    } else if (age <= 30 && gender === "Non-Binary") {
+      $("#ruby").show();
+    }
+
     event.preventDefault();
   });
 });
