@@ -9,6 +9,8 @@ $(document).ready(function() {
       $("#csharp").show();
     } else if (age <= 30 && gender === "Non-Binary") {
       $("#ruby").show();
+    } else if (age > 30 && age <= 50 || operator === add) {
+      $("#python").show();
     }
 
     event.preventDefault();
