@@ -11,3 +11,7 @@ body {
 .btn {
   display: block;
 }
+
+#pick {
+  display: none;
+}
