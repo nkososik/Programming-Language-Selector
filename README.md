@@ -24,7 +24,7 @@ _There are no known issues with bootstrap.css, styles.css, scripts.js, jquery, o
 
 ## Support and contact details
 
-_If you run into any issues in the code, feel welcome to edit. You can contact me at nikolas.kososik@gmail.com or through github (user: nkososik) for any support needs_
+_If you run into any issues in the code, feel welcome to edit. You can contact me at nikolas.kososik@gmail.com or through github (user: nkososik) for any support needs._
 
 ## Technologies Used
 

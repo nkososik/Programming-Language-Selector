@@ -8,7 +8,7 @@ $(document).ready(function() {
     const operator = $("input:radio[name=operator]:checked").val();
     const cheese = $("input:checkbox[name=cheese]:checked").val();
 
-    if (age) {
+    if (age && userName) {
       if (cheese === "on") {
         $("#csharp").fadeIn();
         $("#javascript,#python,#ruby").hide();
@@ -26,7 +26,7 @@ $(document).ready(function() {
         $("#csharp,#python,#ruby").hide();
       }
     } else {
-      alert("Please enter your age")
+      alert("Please enter your age and first name")
     }
 
     $("span.name1").text(userName);
